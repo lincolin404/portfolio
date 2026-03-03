@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Lincolin | Software Engineer & Web Developer Portfolio</title> 
+  <meta name="description" content="Portfolio of Lincolin, a passionate Software Engineer. Specializing in web development, React, Mobile Apps and UI/UX design. Available for Projects">
+  <meta name="keywords" content="software engineer, portfolio, web developer, react developer, kenya, nairobi, backend developer, frontend developer">
+  <meta name="author" content="Juma Lincolin">
+
+  <!-- Open Graph (social media) -->
+  <meta property="og:title" content="Lincolin | Software Engineer Portfolio">
+  <meta property="og:description" content="web developer specializing in responsive websites and modern technologies. Based in Nairobi, Kenya">   
+  <meta property="og:image" content="files/images/me.jpeg">
+  <meta property="og:url" content="https://yourwebsite.com">
+  <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lincolin | Software Engineer Portfolio">
+    <meta name="twitter:description" content="Web developer specializing in responsive websites and modern technologies.">
+    <meta name="twitter:image" content="files/images/me.jpeg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourwebsite.com">
+    
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon (multiple formats) -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- Structure Data for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Lincolin",
+      "jobTitle": "Software Engineer",
+      "url": "https://yourwebsite.com", 
+      "sameAs": [
+        "https://www.linkedin.com/in/juma-lincolin",
+        "https://github.com/Lincolin-soft028",
+        "https://x.com/JayLincons004"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Nairobi",
+        "addressCountry": "Kenya"
+      },
+      "email": "mailto:lincjuma@gmail.com",
+      "phone": "+254790344913"
+    }
+    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--performance meta tags-->
+  <meta name="theme-color" content="#0a192f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <link rel="stylesheet" href="style1.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!--preload critical images-->
+  <link rel="--preload" href="files/images/ai.jpeg" as="image">
+  <link rel="--preload" href="files/images/me.jpeg" as="image">
+  <link rel="--preload" href="project1.jpeg" as="image"><!--for project screenshots; project2.jpeg e.t.c will have its own link tag-->
+</head>
+
+
+
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <nav>
+    <div class="nav-left">Port<span class="nav-brand-accent">folio</span></div>
+    
+    <!-- Hamburger Menu Button -->
+    <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" role="button" tabindex="0">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    
+    <ul class="nav-container">
+      <li><a href="#home" class="nav-link"><i class="fa fa-house"></i> Home</a></li>
+      <li><a href="#about" class="nav-link"><i class="fa fa-user"></i> About</a></li>
+      <li><a href="#skills" class="nav-link"><i class="fa-solid fa-brain"></i> Skills</a></li>
+      <li><a href="#services" class="nav-link"><i class="fa fa-envelope"></i> Services</a></li>
+      <li><a href="#projects" class="nav-link"><i class="fa fa-layer-group"></i> Projects</a></li>
+      <li><a href="#contacts" class="nav-link"><i class="fa fa-phone"></i> Contacts</a></li>
+    </ul>
+    
+    <a href="files/documents/Juma_Lincolin_CV.pdf" class="nav-right"><i class="fa-solid fa-download"></i> Download CV</a>
+  </nav>
+    
+  <section id="home">
+    <div class="hero-container">
+      <div class="hero-left">
+        <p class="greeting">Hello, I'm</p>
+        <h1 class="name">Lincolin</h1>
+        <h2 class="role">Software Engineer</h2>
+        <p class="description">
+          I am a passionate web developer creating beautiful 
+          and responsive websites with modern technologies.
+        </p>
+        <div class="status-row">
+          <span class="location">
+            <i class="fas fa-location-dot"></i> Nairobi, Kenya     
+          </span>
+          <span class="available">
+            <span class="dot"></span>
+            Available Now
+          </span>
+        </div>
+
+        <div class="hero-buttons">
+          <a href="#contacts" class="btn primary">Hire Me</a>
+          <a href="files/documents/Juma_Lincolin_CV.pdf" class="btn secondary" download="">Download CV</a>
+        </div>
+    
+        <div class="social-icons">
+          <p class="follow-text">Follow me:</p>
+          <a href="https://github.com/Lincolin-soft028"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/juma-lincolin"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/JayLincons004"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="image-frame">
+          <!-- <img src="files/ai.jpeg" alt="Animated Image of a Developer"> -->
+            <img 
+              src="files/images/ai.jpeg" 
+              alt="Animated Image of a Developer" 
+              width="280" 
+              height="320"
+              style="width: 100%;
+              height: auto; object-fit: cover;"
+              loading="eager"
+            >
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-wrapper">
+      <div class="about-left">
+        <p class="subtitle"><span class="dot"></span> About Me</p>
+        <h2 class="title">
+          Passionate about creating <span class="nav-brand-accent">impactful</span> digital products
+        </h2>
+        
+        <p class="text">
+          I am a passionate Frontend Developer with 3+ years of experience 
+          building responsive and user-friendly web applications. I specialize 
+          in HTML, CSS, JavaScript, and React.
+        </p>
+        
+        <p class="text">
+          I love turning complex problems into simple, beautiful designs. 
+          When I'm not coding, you'll find me exploring new technologies 
+          and contributing to open-source projects.
+        </p>
+        
+        <div class="about-stats">
+          <div class="stat">
+            <h3>3+</h3>
+            <p>Years Experience</p>
+          </div>
+          <div class="stat">
+            <h3>20+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div class="stat">
+            <h3>15+</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        
+        <a href="#contacts" class="btn primary">Let's Talk</a>
+      </div>
+      
+      <div class="about-right">
+        <div class="about-card">
+          <img 
+              src="files/images/me.jpeg" 
+              alt="Animated Image of a Developer" 
+              width="280" 
+              height="320"
+              style="width: 100%;
+              height: auto; object-fit: cover;"
+              loading="eager"
+            >
+          <h3>Lincolin</h3>
+          <p>Software Engineer </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="skills-wrapper">
+      <div class="skills-header">
+        <p class="subtitle"><span class="dot"></span> My Skills</p>
+        <h2 class="title"><span class="nav-brand-accent">Technologies</span> I Work With</h2>
+      </div>
+      
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h4>HTML5</h4>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h4>CSS3</h4>
+        </div>
+
+        <div class="skill-card">
+          <i class="fab fa-python"></i>
+          <h4>Python</h4>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h4>JavaScript</h4>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fab fa-java"></i>
+          <h4>Java</h4>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fab fa-php"></i>
+          <h4>PHP</h4>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fab fa-git-alt"></i>
+          <h4>Git</h4>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fab fa-figma"></i>
+          <h4>Figma</h4>
+        </div>
+        
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h4>MySQL</h4>
+        </div>
+
+        <div class="skill-card">
+          <i class="fas fa-database"></i>
+          <h4>Oracle</h4>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="services-wrapper">
+      <div class="services-header">
+        <h2 class="services-title">
+          <span class="highlight">Features</span> &amp; <span class="highlight">Services</span>
+        </h2>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            I create responsive, modern websites using the latest technologies and best practices.
+            From concept to deployment, I ensure your website looks great and performs perfectly.
+          </p>
+          <div class="service-tags">
+            <span>Responsive Design</span>
+            <span>Performance Optimized</span>
+            <span>SEO Friendly</span>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Mobile Development</h3>
+          <p>
+            Building cross-platform mobile applications that work seamlessly on both iOS and Android
+            devices using modern frameworks and tools.
+          </p>
+          <div class="service-tags">
+            <span>Cross Platform</span>
+            <span>Native Performance</span>
+            <span>User Friendly</span>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>
+            Designing intuitive and beautiful user interfaces that provide exceptional user experiences.
+            I focus on usability, accessibility, and visual appeal.
+          </p>
+          <div class="service-tags">
+            <span>User Centered</span>
+            <span>Modern Design</span>
+            <span>Accessibility</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="projects-wrapper">
+      <div class="projects-header">
+        <p class="subtitle"><span class="dot"></span> My Work</p>
+        <h2 class="title">Recent <span class="highlight">Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="project1.jpg" alt="E-commerce website project">
+            <div class="project-overlay">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>E-Commerce Website</h3>
+            <p>Modern online store with responsive UI, product filtering, and smooth checkout flow.</p>
+            
+            <div class="project-code-block">
+              <pre><code class="language-javascript">// Add to cart functionality
+const addToCart = (productId) =&gt; {
+  const product = findProduct(productId);
+  cart.push({
+    ...product,
+    quantity: 1
+  });
+  updateCartUI();
+};</code></pre>
+            </div>
+            
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="project2.jpg" alt="Task manager app project">
+            <div class="project-overlay">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Task Manager App</h3>
+            <p>A productivity app for tracking daily tasks with clean layout and status indicators.</p>
+            
+            <div class="project-code-block">
+              <pre><code class="language-javascript">// Create new task
+const createTask = (title, dueDate) =&gt; {
+  const newTask = {
+    id: generateId(),
+    title,
+    dueDate,
+    status: 'pending',
+    createdAt: new Date()
+  };
+  saveToDB(newTask);
+  return newTask;
+};</code></pre>
+            </div>
+            
+            <div class="project-tech">
+              <span>React</span>
+              <span>Firebase</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image">
+            <img src="project3.jpg" alt="Portfolio website project">
+            <div class="project-overlay">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio with smooth animations, responsive sections, and dark theme design.</p>
+            
+            <div class="project-code-block">
+              <pre><code class="language-javascript">// Smooth scroll navigation
+document.querySelectorAll('a[href^="#"]')
+  .forEach(anchor =&gt; {
+    anchor.addEventListener('click', (e) =&gt; {
+      e.preventDefault();
+      const target = document.querySelector(
+        anchor.getAttribute('href')
+      );
+      target?.scrollIntoView({ behavior: 'smooth' });
+    });
+  });</code></pre>
+            </div>
+            
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <div class="contacts-wrapper">
+      <div class="contacts-header">
+        <p class="subtitle"><span class="dot"></span> Get In Touch</p>
+        <h2 class="title">Contact <span class="highlight">Me</span></h2>
+      </div>
+
+      <div class="contacts-container">
+        <div class="contact-info">
+          <h3>Let's <span class="nav-brand-accent">Connect</span></h3>
+          <p>
+            Feel free to reach out for any inquiries or collaboration opportunities.
+            I'm always open to discussing new projects and opportunities.
+          </p>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto: lincjuma@gmail.com">lincjuma@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+254790344913">+254 790344913</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-location-dot"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Nairobi, Kenya</p>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://www.linkedin.com/in/juma-lincolin" class="social-link" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Lincolin-soft028" class="social-link" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://x.com/JayLincons004" class="social-link" title="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <form
+          class="contact-form"
+          id="contact-form"
+          action="https://formspree.io/f/mjgeqwya"
+          method="POST"
+          novalidate
+        >
+          <input type="text" name="_gotcha" style="display:none">
+
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Your Name"
+              required
+              minlength="2"
+            >
+            <small class="error-message"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Your Email"
+              required
+            >
+            <small class="error-message"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+              minlength="5"
+            ></textarea>
+            <small class="error-message"></small>
+          </div>
+
+          <button type="submit" class="btn primary">Send Message</button>
+          <p class="form-status" id="form-status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>&copy; 2026 Socie. All rights reserved.</p>
+  </footer>
+  
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // ===== HAMBURGER MENU FUNCTIONALITY =====
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.querySelector('.nav-container');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    if (hamburger && navMenu) {
+      // Toggle menu on hamburger click
+      hamburger.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        hamburger.classList.toggle('open');
+        
+        const expanded = hamburger.getAttribute('aria-expanded') === 'true';
+        hamburger.setAttribute('aria-expanded', String(!expanded));
+      });
+
+      // Close menu when clicking a link
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          navMenu.classList.remove('active');
+          hamburger.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+          
+          // Set active link
+          removeActiveLink();
+          link.classList.add('active');
+        });
+      });
+
+      // Close menu when clicking outside
+      document.addEventListener('click', (e) => {
+        if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+          navMenu.classList.remove('active');
+          hamburger.classList.remove('open');
+          hamburger.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // ===== ACTIVE SECTION HIGHLIGHT (SCROLL SPY) =====
+    const sections = document.querySelectorAll('section[id]');
+    
+    function removeActiveLink() {
+      navLinks.forEach(link => link.classList.remove('active'));
+    }
+
+    function checkActiveSection() {
+      let current = '';
+      
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100; // Offset for fixed header
+        const sectionHeight = section.clientHeight;
+        
+        if (pageYOffset >= sectionTop && pageYOffset < sectionTop + sectionHeight) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      // Update nav link based on current section
+      navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (href === '#' + current) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
+    // Run on scroll
+    window.addEventListener('scroll', checkActiveSection);
+    
+    // Check on page load
+    checkActiveSection();
+
+    // ===== CONTACT FORM VALIDATION =====
+    const form = document.getElementById('contact-form');
+    if (form) {
+      const statusEl = document.getElementById('form-status');
+      const submitBtn = form.querySelector('button[type="submit"]');
+
+      function setStatus(message, type) {
+        if (!statusEl) return;
+        statusEl.textContent = message || '';
+        statusEl.classList.remove('ok', 'error', 'show');
+
+        if (message) {
+          if (type === 'ok') statusEl.classList.add('ok');
+          if (type === 'error') statusEl.classList.add('error');
+          statusEl.classList.add('show');
+        }
+      }
+
+      function showError(input, message) {
+        const group = input.closest('.form-group');
+        if (!group) return;
+        const errorEl = group.querySelector('.error-message');
+        errorEl.textContent = message;
+        if (message) {
+          input.classList.add('invalid');
+        } else {
+          input.classList.remove('invalid');
+        }
+      }
+
+      function validateInput(input) {
+        const value = input.value.trim();
+
+        if (input.validity.valueMissing) {
+          return 'This field is required.';
+        }
+
+        if (input.type === 'email' && input.validity.typeMismatch) {
+          return 'Please enter a valid email address.';
+        }
+
+        if (input.id === 'name' && value.length < 2) {
+          return 'Name must be at least 2 characters.';
+        }
+
+        if (input.id === 'message' && value.length < 5) {
+          return 'Message must be at least 5 characters.';
+        }
+
+        return '';
+      }
+
+      form.querySelectorAll('input, textarea').forEach(input => {
+        input.addEventListener('input', () => {
+          const message = validateInput(input);
+          showError(input, message);
+          setStatus('', '');
+        });
+      });
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        setStatus('', '');
+
+        const inputs = form.querySelectorAll('input, textarea');
+        let hasErrors = false;
+
+        inputs.forEach(input => {
+          if (input.type === 'hidden') return;
+          const message = validateInput(input);
+          showError(input, message);
+          if (message) hasErrors = true;
+        });
+
+        if (hasErrors) {
+          setStatus('Please fix the errors above and try again.', 'error');
+          return;
+        }
+
+        const originalText = submitBtn ? submitBtn.textContent : '';
+        if (submitBtn) {
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Sending...';
+        }
+
+        fetch(form.action, {
+          method: form.method,
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        })
+          .then(response => {
+            if (response.ok) {
+              setStatus('Thank you! Your message has been sent.', 'ok');
+              form.reset();
+              inputs.forEach(input => input.classList.remove('invalid'));
+            } else {
+              setStatus('Oops, something went wrong. Please try again later.', 'error');
+            }
+          })
+          .catch(() => {
+            setStatus('Network error. Please check your connection and try again.', 'error');
+          })
+          .finally(() => {
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.textContent = originalText || 'Send Message';
+            }
+          });
+      });
+    }
+
+
+    //CSS OPTIMIZATION    
+    function animateSections() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('loaded');
+          }
+        });
+      }, { threshold: 0.1 });
+
+      ['skills', 'services', 'projects', 'contacts'].forEach(id => {
+        const section = document.getElementById(id);
+        if (section) observer.observe(section);
+      });
+    }
+
+    window.addEventListener('load', animateSections);
+  });
+</script>
+
+</body>
+</html>

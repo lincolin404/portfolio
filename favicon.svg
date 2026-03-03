@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#020c1b"/>
+
+  <!-- Glowing circle -->
+  <circle cx="32" cy="32" r="20" fill="#0a192f" stroke="#64ffda" stroke-width="3"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="rgba(100,255,218,0.3)" stroke-width="2"/>
+
+  <!-- Letter S -->
+  <text x="50%" y="50%"
+        text-anchor="middle"
+        dominant-baseline="central"
+        font-family="Segoe UI, system-ui, -apple-system, BlinkMacSystemFont, sans-serif"
+        font-size="26"
+        fill="#64ffda"
+        font-weight="700">
+    L
+  </text>
+</svg>
